@@ -6,3 +6,6 @@ git commit -m "second commit"
 git branch -M main
 git remote add origin https://github.com/Shionsugiki/sample-git-project2.git
 git push -u origin main
+git add .
+git commit -m "プルリクエストの練習"
+git push origin feature-branch
