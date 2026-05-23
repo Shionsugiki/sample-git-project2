@@ -1,6 +1,4 @@
-touch practice.txt
-cd "C:\Users\super\OneDrive\デスクトップ\git-practice"
-git init
+practice.txtの編集・保存
 git add .
 git commit -m "3rd commit"
 git push -u origin feature-branch
