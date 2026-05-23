@@ -1,4 +1,8 @@
-practice.txtの編集・保存
+touch practice.txt
+cd "C:\Users\super\OneDrive\デスクトップ\git-practice"
+git init
 git add .
-git commit -m "3rd commit"
-git push -u origin feature-branch
+git commit -m "second commit"
+git branch -M main
+git remote add origin https://github.com/Shionsugiki/sample-git-project2.git
+git push -u origin main
